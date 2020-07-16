@@ -5,3 +5,36 @@
 body {
     background-color: aqua;
 }
+/************ Navigation ***************/
+
+header {
+    background-color: blanchedalmond;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+
+}
+
+ul a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+ul a:hover {
+    background-color: darkgray;
+}
